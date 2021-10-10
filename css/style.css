@@ -24,16 +24,16 @@ html {
     align-items: flex-end;
     justify-content: flex-end;
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .calculator__output {
-    font-size: 72px;
+    font-size: 60px;
     font-weight: 400;
 }
 
 .calculator__equation {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .calculator__body,

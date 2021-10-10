@@ -37,6 +37,6 @@ $(document).ready(function() {
     function calculateTheEquation() {
         const answer = eval(equation)
         
-        $('.calculator__output').text(`= ${answer}`)
+        $('.calculator__output').text(`= ${answer.toFixed(2)}`)
     }
 });
