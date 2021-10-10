@@ -4,7 +4,6 @@ $(document).ready(function() {
 	// Number clicked event handler
 	$('.calculator__item').on('click', (e) => {
 		const number = $(e.target).text();
-		console.log(number);
 		setEquation(number);
 	});
 
