@@ -30,10 +30,23 @@ html {
 .calculator__output {
     font-size: 60px;
     font-weight: 400;
+
 }
 
 .calculator__equation {
     font-size: 30px;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .calculator__output {
+        font-size: 35px;    
+    }
+    
+    .calculator__equation {
+        font-size: 25px;
+    }
+      
 }
 
 .calculator__body,
